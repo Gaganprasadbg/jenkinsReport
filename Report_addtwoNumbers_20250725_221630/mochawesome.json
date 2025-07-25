@@ -1,0 +1,102 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-25T16:46:35.764Z",
+    "end": "2025-07-25T16:46:35.769Z",
+    "duration": 5,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ce1142df-6871-48b5-9aee-1037afb1c4ac",
+      "title": "",
+      "fullFile": "C:\\Documents\\JenkinsLearningRepo\\src\\addtwoNumbers.ts",
+      "file": "\\src\\addtwoNumbers.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4737c8fc-36eb-44a9-a247-972eee89df68",
+          "title": "Just Started learning to build frame work",
+          "fullFile": "C:\\Documents\\JenkinsLearningRepo\\src\\addtwoNumbers.ts",
+          "file": "\\src\\addtwoNumbers.ts",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "First code of this Frame Work",
+              "fullTitle": "Just Started learning to build frame work First code of this Frame Work",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return __awaiter(this, void 0, void 0, function* () {\n    let addResult = yield addutill_1.addUtil.add(2, 5);\n    yield console.log(`<<-->> First Result :- ${addResult} <<-->>`);\n    yield console.log(`<<-->> Learning how to raise Pull Request <<-->>`);\n});",
+              "err": {},
+              "uuid": "8f5d09b8-55c4-46e7-b22d-cf063e84f052",
+              "parentUUID": "4737c8fc-36eb-44a9-a247-972eee89df68",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8f5d09b8-55c4-46e7-b22d-cf063e84f052"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 10000000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.8.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "TestResults"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
